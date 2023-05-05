@@ -22,5 +22,11 @@ class Divisible3Test {
         boolean resultadoEsperado = true;
         assertNotEquals(resultadoEsperado, resultadoActual);
     }
+    @Test
+    void testCompruebaDivisiblePor3_5() {Divisible3 d1 = new Divisible3();
+        boolean resultadoActual = d1.compruebaDivisiblePor3("5");
+        boolean resultadoEsperado = true;
+        assertNotEquals(resultadoEsperado, resultadoActual);
+    }
 
 }
